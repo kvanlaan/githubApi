@@ -1,0 +1,81 @@
+body {
+	font-size: 0;
+   font-family: Helvetica;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input {
+	display: block;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	width: 20%;
+}
+
+
+#leftColumn {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	font-size: small;
+	vertical-align: top;
+}
+
+
+
+#leftColumn ul {
+    text-align: inherit;
+}
+
+#leftColumn li {
+	margin: 5px;
+}
+
+.userImg {
+	width: 100%;
+	border-radius: 10%;
+}
+
+.userName {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+#repoContainer {
+	display: inline-block;
+	width: 75%;
+	margin: 0 20px;
+}
+
+.repo {
+	border-bottom: gray solid 1px;
+	padding: 0px;
+	margin-left: 5%;
+	position: relative;
+}
+
+.repoName {
+	display: inline-block;
+	font-size: medium;
+	color:	blue;
+
+}
+
+
+.following {
+	border-top: gray solid 1px;
+	border-bottom: gray solid 1px;
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+}
+
+
+.following p {
+	margin-top: 0px;
+	font-size: 12px;
+	color:	gray;
+}
