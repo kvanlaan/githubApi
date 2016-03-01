@@ -1,11 +1,10 @@
 console.log("hello baby")
 
 
-
 //define the variables
 var baseUrl = "https://api.github.com/users/"
 var userName = "kvanlaan"
-var apiKey = "?access_token=f3c4ebfe8cf5892da70f40b894762754cc38fc4c"
+var apiKey = "?access_token=dc244096f8b1b09f5df17a2f5105df37676fc8d4"
 var userUrl = baseUrl + userName + apiKey
 
 var reposUrl = baseUrl + userName + "/repos" + apiKey
