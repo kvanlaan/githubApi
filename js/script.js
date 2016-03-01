@@ -5,9 +5,9 @@ console.log("hello baby")
 var baseUrl = "https://api.github.com/users/"
 var userName = "kvanlaan"
 
-var userUrl = baseUrl + userName + apiKey
+var userUrl = baseUrl + userName 
 
-var reposUrl = baseUrl + userName + "/repos" + apiKey
+var reposUrl = baseUrl + userName + "/repos" 
 
 
 //queryselectors, set up the elements 
