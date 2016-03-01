@@ -4,7 +4,7 @@ console.log("hello baby")
 //define the variables
 var baseUrl = "https://api.github.com/users/"
 var userName = "kvanlaan"
-var apiKey = "?access_token=dc244096f8b1b09f5df17a2f5105df37676fc8d4"
+
 var userUrl = baseUrl + userName + apiKey
 
 var reposUrl = baseUrl + userName + "/repos" + apiKey
@@ -30,9 +30,9 @@ var controller = function() {
 ///executes search functionality. store promises here.
 
 var doRequest = function(query) {
-	var userUrl = baseUrl + query + apiKey
+	var userUrl = baseUrl + query 
 	var promiseUser = $.getJSON(userUrl)
-	var reposUrl = baseUrl + userName + "/repos" + apiKey
+	var reposUrl = baseUrl + userName + "/repos" 
 	var promiseRepo = $.getJSON(reposUrl)
 //execute promises
 	promiseUser.then(showUserData)
